@@ -4,3 +4,4 @@ target/
 .settings/
 *.log
 test-output/
+.factorypath
