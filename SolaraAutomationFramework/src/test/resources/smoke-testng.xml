@@ -1,9 +1,7 @@
+
+
 <suite name="Smoke Suite">
     <test name="Smoke Tests">
-        <packages>
-            <package name="com.airline"/>
-        </packages>
-        
         <classes>
             <class name="com.airline.tests.StandardSearchTest"/>
         </classes>
