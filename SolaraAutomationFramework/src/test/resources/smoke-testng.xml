@@ -3,5 +3,9 @@
         <packages>
             <package name="com.airline"/>
         </packages>
+        
+        <classes>
+            <class name="com.airline.tests.StandardSearchTest"/>
+        </classes>
     </test>
 </suite>
