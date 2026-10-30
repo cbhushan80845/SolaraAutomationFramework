@@ -18,7 +18,7 @@ pipeline {
         stage('Run Selenium Tests') {
     steps {
         dir('SolaraAutomationFramework') {
-            bat 'mvn clean test'
+            bat 'mvn clean test -psmoke'
         }
     }
 }
