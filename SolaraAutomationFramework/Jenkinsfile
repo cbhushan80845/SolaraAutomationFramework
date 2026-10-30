@@ -16,10 +16,12 @@ pipeline {
         }
 
         stage('Run Selenium Tests') {
-            steps {
-                bat 'mvn clean test'
-            }
+    steps {
+        dir('SolaraAutomationFramework') {
+            bat 'mvn clean test'
         }
+    }
+}
     }
 
     post {
